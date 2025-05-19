@@ -1,4 +1,7 @@
 import os
 
 def delete_file(filename):
-    os.system(f"rm {filename}")
+import subprocess
+
+def delete_file(filename):
+    subprocess.run(["rm", filename], check=True)\n
