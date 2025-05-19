@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "example-java-project",
+    "version": "1.0.0"
+  },
+  "dependencies": [
+    {
+      "package": {
+        "name": "commons-collections",
+        "group": "commons-collections",
+        "version": "3.2.1"
+      },
+      "vulnerabilities": [
+        {
+          "id": "CVE-2015-6420",
+          "description": "Apache Commons Collections 3.2.1 allows remote code execution via unsafe deserialization using InvokerTransformer.",
+          "cvssScore": 10.0,
+          "severity": "CRITICAL",
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-6420",
+            "https://commons.apache.org/proper/commons-collections/security-reports.html"
+          ],
+          "fixVersion": "3.2.2"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2025-05-13T00:00:00Z",
+  "scanner": {
+    "name": "CustomVulnScanner",
+    "version": "1.0"
+  }
+}
