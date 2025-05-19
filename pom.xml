@@ -39,3 +39,42 @@
         </plugins>
     </build>
 </project>
+xml
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+```
+
+After updating the `pom.xml` file, run the following command in your terminal to update the dependency:
+
+```
+mvn dependency:get -DgroupId=org.apache.commons -DartifactId=commons-collections -Dversion=3.2.2\n<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.4</version>
+</dependency>\nxml
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.5.10.3</version>
+</dependency>\n<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.4</version>
+</dependency>\nxml
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.5.10.3</version>
+</dependency>\n<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.4</version>
+</dependency>\nxml
+<dependency>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.5.10.3</version>
+</dependency>\n
